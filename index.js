@@ -10,7 +10,7 @@ const app = express();
 
 // Express json-parser
 app.use(express.json());
-
+app.use(express.static("dist"));
 app.use(cors());
 
 let notes = [
