@@ -92,5 +92,5 @@ app.post("/api/notes", (request, response) => {
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`Server running on the port ${PORT}`);
+  console.log(`Server running on the port http://localhost:${PORT}/`);
 });
