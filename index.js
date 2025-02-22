@@ -56,7 +56,7 @@ app.post("/api/notes", (request, response, next) => {
     .catch((error) => next(error));
 });
 
-app.put("api/notes/:id", (request, reponse, next) => {
+app.put("/api/notes/:id", (request, reponse, next) => {
   const { content, important } = request.body;
 
   // const note = {
